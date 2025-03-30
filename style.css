@@ -23,4 +23,48 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+}
 
+nav {
+    padding: 20px 30px;
+    background-color: #CDDFA0;
+    border-bottom: 2px solid #0F0F0F;
+    text-align: center;
+}
+
+nav a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color:#0F0F0F;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #F6FFE9;
+    font-weight: bold;
+    color: #0F0F0F;
+
+    border-radius: 10px ;
+}
+
+section {
+    background-color: #F6FFE9;
+    overflow: auto;
+}
+
+.omne, .tetovani {
+    background-color:#F6FFE9 #E5FFC4;
+} 
+
+.umelecka-tvorba {
+    background-color: #CDDFA0;
+}
+
+footer {
+    color: white;
+    background-color: #0F0F0F;
+    padding: 30px;
+}
