@@ -1,0 +1,26 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+}
+
+    *,
+    *:before,
+    *:after {
+    box-sizing: inherit;
+}
+
+/*
+sTo nahoře je černá magie, na to raději nešahej.
+Ale sem dolů už si můžeš psát, co budeš chtít.
+
+Tohle je mimochodem opět komentář, ale v CSS.
+Začíná a končí trochu jinak než v HTML, ale
+princip je stejný.
+------------------------------------------------
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
